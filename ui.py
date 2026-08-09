@@ -15,9 +15,6 @@ from datetime import datetime
 from pathlib import Path
 
 # Load environment variables FIRST
-from dotenv import load_dotenv
-load_dotenv()
-
 import streamlit as st
 import numpy as np
 
