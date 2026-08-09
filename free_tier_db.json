@@ -1,0 +1,17 @@
+{
+  "users": {
+    "test_user_001": {
+      "user_id": "test_user_001",
+      "tier": "free",
+      "videos_generated": 0,
+      "videos_this_month": 0,
+      "total_video_duration": 0,
+      "last_reset_date": "2026-07-19T01:39:08.830629",
+      "created_at": "2026-07-19T01:39:08.830649",
+      "upgraded_to_pro": false,
+      "upgrade_date": null,
+      "watermark_preference": true,
+      "generated_videos": []
+    }
+  }
+}
