@@ -11,8 +11,20 @@ import io as _io
 import tempfile as _tempfile
 import streamlit as st
 
-from dotenv import load_dotenv
-load_dotenv()
+SMTP_SERVER="smtp.gmail.com"
+SMTP_PORT=587
+SENDER_EMAIL="kingghazi123580@gmail.com"
+SENDER_APP_PASSWORD="smcgmcfyroojzwcb"
+JAZZCASH_NUMBER="03472758750"
+JAZZCASH_ACCOUNT_TITLE="FUTURE 4K"
+EASYPAISA_NUMBER="03472758750"
+EASYPAISA_ACCOUNT_TITLE="FUTURE 4K"
+SADAPAY_NUMBER="03472758750"
+SADAPAY_ACCOUNT_TITLE="FUTURE 4K"
+NAYAPAY_NUMBER="03472758750"
+NAYAPAY_ACCOUNT_TITLE="FUTURE 4K"
+MAX_SINGLE_TOPUP_PKR="50000"
+MIN_SINGLE_TOPUP_PKR="100"
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
