@@ -5,23 +5,25 @@
 # MIC/AUDIO FEATURES FULLY REMOVED
 # ============================================================
 
+import streamlit as st
+st.set_page_config(page_title="Future4K", layout="centered")
 import os
 import sys
 import io as _io
 import tempfile as _tempfile
 import streamlit as st
 
-SMTP_SERVER="smtp.gmail.com"
-SMTP_PORT=587
-SENDER_EMAIL="kingghazi123580@gmail.com"
-SENDER_APP_PASSWORD="smcgmcfyroojzwcb"
-JAZZCASH_NUMBER="03472758750"
+SMTP_SERVER=""
+SMTP_PORT=""
+SENDER_EMAIL=""
+SENDER_APP_PASSWORD=""
+JAZZCASH_NUMBER=""
 JAZZCASH_ACCOUNT_TITLE="FUTURE 4K"
-EASYPAISA_NUMBER="03472758750"
+EASYPAISA_NUMBER=""
 EASYPAISA_ACCOUNT_TITLE="FUTURE 4K"
-SADAPAY_NUMBER="03472758750"
+SADAPAY_NUMBER=""
 SADAPAY_ACCOUNT_TITLE="FUTURE 4K"
-NAYAPAY_NUMBER="03472758750"
+NAYAPAY_NUMBER=""
 NAYAPAY_ACCOUNT_TITLE="FUTURE 4K"
 MAX_SINGLE_TOPUP_PKR="50000"
 MIN_SINGLE_TOPUP_PKR="100"
