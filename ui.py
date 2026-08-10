@@ -7,6 +7,33 @@
 
 import streamlit as st
 st.set_page_config(page_title="Future4K", layout="centered")
+
+# ============================================
+# SESSION STATE INITIALIZATION
+# ============================================
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if "user_name" not in st.session_state:
+    st.session_state.user_name = ""
+
+if "user_email" not in st.session_state:
+    st.session_state.user_email = ""
+
+if "wallet_balance" not in st.session_state:
+    st.session_state.wallet_balance = 0.0
+
+if "show_settings" not in st.session_state:
+    st.session_state.show_settings = False
+
+if "current_page" not in st.session_state:
+    st.session_state.current_page = "Home"
+
+if "theme" not in st.session_state:
+    st.session_state.theme = "Light"
+
+if "language" not in st.session_state:
+    st.session_state.language = "English"
 import os
 import sys
 import io as _io
